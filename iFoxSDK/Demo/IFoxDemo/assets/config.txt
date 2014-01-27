@@ -1,0 +1,4 @@
+{
+"channel_id":123456,
+"version_name":"V1.0 Beta"
+}
