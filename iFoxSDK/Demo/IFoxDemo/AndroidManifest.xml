@@ -85,6 +85,14 @@
             android:theme="@style/Theme.UPPay" >
         </activity>
         
+         <activity
+            android:name="com.alipay.android.app.sdk.WapPayActivity"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            >
+        </activity>
+        
          <service
             android:name="com.arzen.ifox.receiver.IService"
             android:process=".iService" />
